@@ -5,7 +5,7 @@
  * Date: 2019/5/17
  * Time: 22:57
  */
-namespace Fengzyz\DesignPatterns\Observer;
+namespace Fengzyz\DesignPatterns\php\Observer;
 class Message implements Observer
 {
     public function update(Observable $observable)

@@ -5,7 +5,7 @@
  * Date: 2019/5/17
  * Time: 22:52
  */
-namespace Fengzyz\DesignPatterns\Observer;
+namespace Fengzyz\DesignPatterns\php\Observer;
 class Order implements Observable
 {
     // 订单状态
@@ -54,5 +54,4 @@ class Order implements Observable
             $observer->update($this);
         }
     }
-
 }

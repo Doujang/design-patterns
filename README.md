@@ -29,3 +29,4 @@
 ### 目录
 - [单例模式](./php/Singleton/Singleton.php)
 - [简单工厂模式](./php/Factory/Animal.php)
+- [观察者模式](./php/Factory/Test.php)

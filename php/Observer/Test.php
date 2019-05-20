@@ -2,14 +2,13 @@
 /**
  * Created by PhpStorm.
  * User: Administrator
- * Date: 2019/5/17
- * Time: 22:59
+ * Date: 2019/5/20
+ * Time: 22:37
  */
+
 namespace Fengzyz\DesignPatterns\php\Observer;
 
-require __DIR__.'/../vendor/autoload.php';
-
-class Client
+class Test
 {
     /**
      * 运行
@@ -38,5 +37,5 @@ class Client
         $order->addOrder();
     }
 }
-$client = new Client();
-$client->run();
+$test = new Test();
+$test->run();
