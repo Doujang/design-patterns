@@ -5,7 +5,7 @@
  * Date: 2019/5/17
  * Time: 22:53
  */
-namespace Fengzyz\DesignPatterns\php\Observer;
+namespace Fengzyz\DesignPatterns\Observer;
 interface Observable
 {
     // 添加/注册观察者

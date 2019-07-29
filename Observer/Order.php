@@ -5,28 +5,13 @@
  * Date: 2019/5/17
  * Time: 22:52
  */
-namespace Fengzyz\DesignPatterns\php\Observer;
+namespace Fengzyz\DesignPatterns\Observer;
 class Order implements Observable
 {
-    // 订单状态
-    private $state = 0;
-
     // 保存观察者
     private $observers = array();
-
-    // 订单状态有变化时发送通知
-    public function addOrder()
-    {
-
-        $this->state = 1;
-        // 发送邮件
-        Email::update($this->state);
-        // 短信通知
-        Message::update($this->state);
-        // 记录日志
-        Log::update();
-        // 其他更多通知
-    }
+    // 订单状态
+    private $state = 0;
 
     // 添加（注册）观察者
     public function attach(Observer $observer)
@@ -53,5 +38,18 @@ class Order implements Observable
             // 把本类对象传给观察者，以便观察者获取当前类对象的信息
             $observer->update($this);
         }
+    }
+
+    // 订单状态有变化时发送通知
+    public function addOrder()
+    {
+        $this->state = 1;
+        $this->notify();
+    }
+
+    // 获取提供给观察者的状态
+    public function getState()
+    {
+        return $this->state;
     }
 }

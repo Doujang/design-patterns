@@ -6,8 +6,8 @@
  * Time: 22:37
  */
 
-namespace Fengzyz\DesignPatterns\php\Proxy;
-
+namespace Fengzyz\DesignPatterns\Proxy;
+require __DIR__.'/../vendor/autoload.php';
 class Client
 {
     /**

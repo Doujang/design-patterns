@@ -6,7 +6,7 @@
  * Time: 6:46
  */
 
-namespace Fengzyz\DesignPatterns\php\Proxy;
+namespace Fengzyz\DesignPatterns\Proxy;
 
 
 interface Subject

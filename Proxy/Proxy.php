@@ -6,7 +6,7 @@
  * Time: 6:49
  */
 
-namespace Fengzyz\DesignPatterns\php\Proxy;
+namespace Fengzyz\DesignPatterns\Proxy;
 
 
 class Proxy  implements  Subject

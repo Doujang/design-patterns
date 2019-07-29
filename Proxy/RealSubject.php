@@ -6,7 +6,7 @@
  * Time: 6:47
  */
 
-namespace Fengzyz\DesignPatterns\php\Proxy;
+namespace Fengzyz\DesignPatterns\Proxy;
 
 
 class RealSubject implements Subject

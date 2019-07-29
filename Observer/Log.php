@@ -5,7 +5,7 @@
  * Date: 2019/5/17
  * Time: 22:58
  */
-namespace Fengzyz\DesignPatterns\php\Observer;
+namespace Fengzyz\DesignPatterns\Observer;
 class Log implements Observer
 {
     public function update(Observable $observable)

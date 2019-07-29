@@ -5,7 +5,8 @@
  * Date: 2019/5/17
  * Time: 22:56
  */
-namespace Fengzyz\DesignPatterns\php\Observer;
+namespace Fengzyz\DesignPatterns\Observer;
+
 class Email implements Observer
 {
 
