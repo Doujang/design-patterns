@@ -24,6 +24,24 @@ class Client
         echo $kaolengmian->name();
         echo $kaolengmian->price() . '元';
         echo '<hr>';
+
+        // 手抓饼+蛋
+        $egg = new Egg($shouzhuabing);
+        echo $egg->name();
+        echo $egg->price() . '元';
+        echo '<hr>';
+
+        // 手抓饼+肠
+        $sausage = new Sausage($kaolengmian);
+        echo $sausage->name();
+        echo $sausage->price() . '元';
+        echo '<hr>';
+
+        // 烤冷面+辣条
+        $latiao = new Latiao($shouzhuabing);
+        echo $latiao->name();
+        echo $latiao->price() . '元';
+        echo '<hr>';
     }
 }
 $client = new Client();
