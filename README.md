@@ -26,6 +26,7 @@
 
 6. 合成复用原则（Composite Reuse Principle）
 原则是尽量首先使用合成/聚合的方式，而不是使用继承。
+
 ### 目录
 - [单例模式](./php/Singleton/Singleton.php)
 - [简单工厂模式](./php/Factory/Animal.php)
